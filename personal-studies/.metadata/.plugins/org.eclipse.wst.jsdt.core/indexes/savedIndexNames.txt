@@ -1,0 +1,16 @@
+INDEX VERSION 1.3+C:\www\java-for-studies\personal-studies\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1766968079.index
+1457636106.index
+1404484093.index
+2226871993.index
+1243393109.index
+1404484093.index
+2817695332.index
+1697106271.index
+1004836272.index
+3029418712.index
+1947765446.index
+211598040.index
+1429122704.index
+2107878961.index
+2809766440.index

@@ -1,0 +1,19 @@
+package conexao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Conexao {
+	
+	private Connection conn;
+	
+	private void conectar() {
+		System.out.println("Conectando..");
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost/");
+		} catch (Exception e) {
+			
+		}
+	}
+}

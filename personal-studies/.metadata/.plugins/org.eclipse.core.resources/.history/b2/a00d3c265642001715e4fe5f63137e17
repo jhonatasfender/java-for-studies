@@ -1,0 +1,4 @@
+angular.module('med', ['minhasDiretivas', 'ngAnimate', 'ngRoute', 'ngResource'])
+.controller('index', function($scope, $routeParams){
+	
+});

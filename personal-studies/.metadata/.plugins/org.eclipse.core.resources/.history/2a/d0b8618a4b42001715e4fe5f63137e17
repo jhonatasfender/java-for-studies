@@ -1,0 +1,24 @@
+'use strict';
+var cadastrar = function($scope, $http) {
+	$scope.fetchCarsList = function() {
+		$http.get('cars/carlist.json').success(function(carList) {
+			$scope.cars = carList;
+		});
+	};
+
+}
+var AngularSpringApp = {};
+
+var App = angular.module('AngularSpringApp', [ 'AngularSpringApp.filters',
+		'AngularSpringApp.services', 'AngularSpringApp.directives' ]);
+
+App.config([ '$routeProvider', function($routeProvider) {
+	$routeProvider.when('/listar', {
+		templateUrl : 'cadastrar/layout',
+		controller : cadastrar
+	});
+
+	$routeProvider.otherwise({
+		redirectTo : '/'
+	});
+} ]);
