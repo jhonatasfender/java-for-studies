@@ -1,9 +1,0 @@
-angular.module('alurapic', ['minhasDiretivas', 'ngAnimate', 'ngRoute', 'ngResource'])
-.config(function($routeProvider){
-    $routeProvider.when('/fotos', {
-       templateUrl: 'resources/partials/principal.html',
-       controller: 'FotosController'
-    });
-    
-    $routeProvider.otherwise({redirectTo: '/'});
-});
