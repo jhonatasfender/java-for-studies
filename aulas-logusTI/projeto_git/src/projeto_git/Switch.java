@@ -1,0 +1,19 @@
+package projeto_git;
+
+public class Switch {
+
+	public static void main(String[] args) {
+		int mes = 12;
+		
+		switch (mes) {
+		case 1:
+			System.out.println("Janeiro");
+			break;
+
+		default:
+			System.out.println("Mes não disponivel");
+			break;
+		}
+	}
+
+}
