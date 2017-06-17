@@ -1,0 +1,10 @@
+package projeto_git;
+
+public class AndOrNot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

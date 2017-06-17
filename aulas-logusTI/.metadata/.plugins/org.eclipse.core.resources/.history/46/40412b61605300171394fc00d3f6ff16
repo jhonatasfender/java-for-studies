@@ -1,0 +1,16 @@
+package projeto_git;
+
+public class AndOrNot {
+
+	public static void main(String[] args) {
+
+		boolean a = false;
+		boolean b = true;
+		
+		boolean resultado = a && b;
+		
+		System.out.println(resultado);
+
+	}
+
+}
