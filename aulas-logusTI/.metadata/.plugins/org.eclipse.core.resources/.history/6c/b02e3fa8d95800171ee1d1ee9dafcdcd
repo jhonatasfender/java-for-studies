@@ -1,0 +1,11 @@
+package br.com.logusti.model;
+
+public class Cachorro {
+	
+	public String nome;
+	public Integer idade;
+	public Float comprimentoDePelos;
+	public String corDosPelos;
+	public String corDos;
+	
+}

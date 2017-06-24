@@ -1,0 +1,13 @@
+package br.com.logusti.main;
+
+import br.com.logusti.model.Cachorro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cachorro scoobyDoo = new Cachorro();
+
+	}
+
+}

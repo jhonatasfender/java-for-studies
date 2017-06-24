@@ -1,0 +1,16 @@
+package br.com.logusti.main;
+
+import br.com.logusti.model.Cachorro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cachorro scoobyDoo = new Cachorro();
+		scoobyDoo.nome = "ScoobyDoo";
+		scoobyDoo.idade = 5;
+		scoobyDoo.idade = new Integer(5);
+		System.out.println(scoobyDoo.nome);
+	}
+
+}

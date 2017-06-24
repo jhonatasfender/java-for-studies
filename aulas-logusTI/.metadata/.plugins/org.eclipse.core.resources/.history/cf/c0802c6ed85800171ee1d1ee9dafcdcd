@@ -1,0 +1,15 @@
+package br.com.logusti.util;
+
+public class StringUtils {
+	public String trim(String valor) {
+		return valor.trim();
+	}
+
+	public String[] quebrar(String valor, String valorQuebra) {
+		return valor.split(valorQuebra);
+	}
+
+	public int quantidade(String valor) {
+		return valor.length();
+	}
+}
