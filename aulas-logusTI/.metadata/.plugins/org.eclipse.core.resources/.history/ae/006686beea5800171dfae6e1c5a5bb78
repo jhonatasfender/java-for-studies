@@ -1,0 +1,27 @@
+package br.com.logusti.model;
+
+public class Carro {
+	public String nome;
+	public String marca;
+	public String modelo;
+
+	public void acelerar() {
+		String frase = new StringBuilder()
+				.append("Acelerando o carro:")
+				.append("nome")
+				.append(modelo)
+				.toString();
+		System.out.println(frase);
+	}
+	
+	public void virarADireita() {
+
+		String frase = new StringBuilder()
+				.append("Virando a direita com o carro:")
+				.append("nome")
+				.append(modelo)
+				.toString();
+		System.out.println(frase);
+	}
+
+}

@@ -1,0 +1,8 @@
+package br.com.logusti.model;
+
+public class Carro {
+	public String nome;
+	public String marca;
+	public String modelo;
+
+}
